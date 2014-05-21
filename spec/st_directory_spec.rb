@@ -27,6 +27,28 @@ describe "Student directory" do
     end
   end
 
+  context "editing the student list" do
+
+    it "replaces student attributes" do
+      james = create_student("James", "May", 2014)
+      replace_a_hash_value_for(james, "April")
+      expect(james[]).to eq "April"      
+    end
+
+    it "replaces any student attribute with N/A" do
+      james = create_student("James", "May", 2014)
+      replaces_attribute_with_NA_for(james, :year)
+      expect(james[:year]).to eq "N/A"
+    end
+
+
+
+
+  end
+
+
+
+
 
 
 end
