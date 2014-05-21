@@ -5,7 +5,7 @@ describe "creating students" do
 
   it "with name, cohort and year" do
   	student = {name: 'John', cohort: :may, year: 2014}
-  	expect(new_student('John', :may, 2014)).to eq student
+  	expect(new_student('John', :may, 2014)).to eq student 
 	end
 
   it "with a different name, cohort and year" do
