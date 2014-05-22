@@ -39,3 +39,5 @@
 	def input_student(name, cohort, year)
 		puts "Please enter student"
 	end
+
+# File.open("filename", 'a+') {|f| f.write("datatowrite\n)}
