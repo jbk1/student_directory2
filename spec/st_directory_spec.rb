@@ -64,7 +64,7 @@ describe "Student directory" do
     
       it "checks a csv file exists"
 
-      # looks in a directory, .find
+      # looks in a directory, file.open
       # hv content, want to write to file, expects file to have the content.
 
 
