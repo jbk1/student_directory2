@@ -62,29 +62,35 @@ describe "Student directory" do
 
     context "Writing to a file" do
     
-      it "checks a csv file exists"
-
+      it "checks a csv file exists" do
       # looks in a directory, file.open
       # hv content, want to write to file, expects file to have the content.
+        expect do
+        end
+      end
 
 
-      it "saves data to a file"
+      it "saves data to a file" do
+        expect do
+        end
+      end
 
-    end
 
     context "Loading to a file" do
 
       it "loads a file"
-
-
-    end  
+        expect do
+        end
+      end  
   
   end
-
-
+# ------------ -----
 
 # ------------ -----
 end
+
+
+
 
   # context "editing the student list" do
   #   it "replaces student attributes" do
